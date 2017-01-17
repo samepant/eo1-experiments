@@ -6,15 +6,63 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <style type="text/css">
-          p {
-            font-size: 45px;
-            color: bisque;
+          .typed-cursor{
+              opacity: 1;
+              -webkit-animation: blink 0.7s infinite;
+              -moz-animation: blink 0.7s infinite;
+              animation: blink 0.7s infinite;
+              font-size: 30px;
+          }
+          @keyframes blink{
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-webkit-keyframes blink{
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+          @-moz-keyframes blink{
+              0% { opacity:1; }
+              50% { opacity:0; }
+              100% { opacity:1; }
+          }
+
+          #this {
+            font-size: 30px;
           }
         </style>
     </head>
     <body>
-        <p>shouts to the test on the eo1</p>
+        
+        <span id="this"></span>
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+        <script src="./typed.js"></script>
+
+        <script>
+          $(function(){
+              $("#this").typed({
+                strings: [
+                  "Work... this is work. This is hard work. Talking about work is work. Thinking is work. Words are work. Words are things, shapes. It's hard to compose them, to put them in any kind of order. Words don't add up. Numbers add up! Things are everywhere. Everything is something, everything has something, but not everyone has someone. It's hard to distinguish between things, to separate things. I'm in a soup of thoughts, feelings and things, and words. Actually, it's more like a purée... or thick and stiff, like a paté. I'm in a paté and it's hard to move. It needs a lot of work to get out of it — or to separate it and find something in it. Thoughts, thoughts, sometimes I want to stop them, but it's hard to stop them. It's work. Dealing with thoughts, that's work. ", 
+                  "Thoughts, thoughts, don't come! Stop! Please! When you're going to sleep and you can't stop thinking, thoughts queueing up, that's when you need drugs — or a notebook.",
+                  "I want something to ease the pain. I want to get out of my head.",
+                  "Smoking used to help. For a long time smoking made my life bearable. I gave up smoking because I couldn't do it enough. I couldn't smoke enough. It was never enough. I wanted to smoke all the time, to breathe in all the time, but I couldn't, not in the shower, not when I was talking, not when I was eating. I wanted something I could do all the time. Not smoking, that was something I could do all the time. I am an addict in search of drugs.",
+                  "Maybe working is trying, and work — the result of work — is everything that one tries to do. Trying... looking for excitement, or trying to handle it and use it to get out of the paté. Trying to do things; talking. Or maybe testing is a good way of putting it: testing things out. Testing things out by putting things about, and all the time trying, hoping to be excited, wanting. Wanting is what makes me work: excitement, desire for something.",
+                  "Sometimes people say: 'What the fuck do you think you're doing? That's not art.' \nI say: 'Fuck off, assholes!' \nAssholes... they are something to get excited about, something to work for. ",
+                  "Work is a fight against loneliness, against low self esteem, against depression, and against staying in bed. Sometimes my self esteem is so low that I cannot reach it even when I'm feeling down.",
+                  "I want to be on my own, but I don't want to be alone.",
+                  "Work is everything, I think. Everything is work. Everything that involves energy, mental or physical. So... everything, apart from being dead. Living...",
+                  "I don't know how anyone can do it. \nHow can anyone get through it? \nI can see why people hide. \nI can see why people commit suicide.",
+                  "If you're lonely, \nIf you're sad, \nIf you're lovely, \nIf you're mad, \n\nThen this is for you."
+                  ],
+                typeSpeed: 300,
+                loop: true
+              });
+          });
+        </script>
     </body>
 </html>
