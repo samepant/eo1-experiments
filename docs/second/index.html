@@ -13,14 +13,16 @@
           }
 
           @keyframes blink{
-              0% { font-size:70px; }
-              50% { font-size:170px; }
-              100% { font-size:70px; }
+              0% { color:green; }
+              30% { color: lightgrey; }
+              60% { color: goldenrod; }
+              100% { color: green; }
           }
           @-webkit-keyframes blink{
-              0% { font-size:70px; }
-              50% { font-size:170px; }
-              100% { font-size:70px; }
+              0% { color:green; }
+              30% { color: lightgrey; }
+              60% { color: goldenrod; }
+              100% { color: green; }
           }
           
 
@@ -28,6 +30,7 @@
             font-size: 170px;
             color: green;
             white-space: pre-wrap;
+            animation: 2s blink;
           }
         </style>
     </head>
