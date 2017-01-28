@@ -21,25 +21,23 @@
               color: ghostwhite;
           }
           @keyframes blink{
-              0% { opacity:1; }
-              50% { opacity:0; }
-              100% { opacity:1; }
+              0% { font-size:70px; }
+              50% { font-size:170px; }
+              100% { font-size:70px; }
           }
           @-webkit-keyframes blink{
-              0% { opacity:1; }
-              50% { opacity:0; }
-              100% { opacity:1; }
+              0% { font-size:70px; }
+              50% { font-size:170px; }
+              100% { font-size:70px; }
           }
-          @-moz-keyframes blink{
-              0% { opacity:1; }
-              50% { opacity:0; }
-              100% { opacity:1; }
-          }
+          
 
           #name {
             font-size: 70px;
             color: ghostwhite;
             white-space: pre-wrap;
+            -webkit-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
           }
         </style>
     </head>
