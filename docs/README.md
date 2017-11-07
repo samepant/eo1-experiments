@@ -1,1 +1,0 @@
-all eo1 ready files are served from this directory

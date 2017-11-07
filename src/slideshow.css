@@ -1,0 +1,11 @@
+.slideshow-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 1280px;
+}
+
+.slideshow-image {
+  max-height: 1080;
+  transform: rotateZ(-90deg);
+}
