@@ -15,7 +15,7 @@ export default class extends React.Component {
   }
 
   componentDidMount () {
-    const imageChooser = setInterval(this.setNextImage, 10000)
+    const imageChooser = setInterval(this.setNextImage, 15000)
     this.fetchImageIds()
   }
 
