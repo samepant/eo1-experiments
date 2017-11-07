@@ -1,6 +1,7 @@
 {
   "name": "eo1",
   "version": "0.1.0",
+  "homepage": "https://samepant.github.io/eo1-experiments/",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
