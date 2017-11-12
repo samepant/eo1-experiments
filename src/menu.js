@@ -29,7 +29,7 @@ export default class extends React.Component {
         </div>
         <div>
           <h2>Lithium Exchange</h2>
-          <p className='price'>$1 == 1% Li</p>
+          <p><span className='price'>$1 == 1% Li</span></p>
           <p>we accept: cash/credit/crypto</p>
         </div>
       </div>

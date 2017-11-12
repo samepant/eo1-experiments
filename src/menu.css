@@ -7,8 +7,8 @@
   bottom: 420px;
   left: -420px;
   transform: rotateZ(-90deg);
-  font-size: 30px;
-  color: darkviolet;
+  font-size: 50px;
+  color: darkorchid;
   background: rgba(255,255,255,1);
   background: -moz-linear-gradient(left, rgba(255,255,255,1) 28%, rgba(255,255,255,0) 100%);
   background: -webkit-gradient(left top, right top, color-stop(28%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
@@ -30,4 +30,11 @@ h2 {
 .side2 {
   margin-left: 75px;
   width: 25%
+}
+
+.price {
+  background: darkorchid;
+  color: white;
+  border-radius: 60% 113% 74% 134%;
+  padding: 37px;
 }
