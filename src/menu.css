@@ -4,7 +4,7 @@
   height: 1080px;
   width: 1920px;
   padding: 50px 0 0 50px;
-  top: 0;
+  bottom: 420px;
   left: -420px;
   transform: rotateZ(-90deg);
   font-size: 30px;
@@ -29,4 +29,5 @@ h2 {
 
 .side2 {
   margin-left: 75px;
+  width: 25%
 }
