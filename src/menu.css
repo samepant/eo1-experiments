@@ -1,12 +1,32 @@
 .menu {
+  box-sizing: border-box;
   position: absolute;
-  bottom: 100px;
-  left: 50px;
+  height: 1080px;
+  width: 1920px;
+  padding: 50px 0 0 50px;
+  top: 0;
+  left: -420px;
   transform: rotateZ(-90deg);
-  font-size: 50px;
+  font-size: 30px;
   color: darkviolet;
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 28%, rgba(255,255,255,0) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(28%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,0)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 28%, rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 28%, rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 28%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 28%, rgba(255,255,255,0) 100%);
 }
 
 h2 {
   font-weight: inherit;
+  text-decoration: underline;
+}
+
+.smoothie-options {
+  display: flex;
+}
+
+.side2 {
+  margin-left: 75px;
 }
