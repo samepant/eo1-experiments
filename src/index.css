@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Panama';
-  src:  url('/pan.woff') format('woff');
+  src:  url('https://samepant.github.io/eo1-experiments/pan.woff') format('woff');
 }
 
 body {

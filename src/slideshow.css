@@ -1,8 +1,10 @@
 .slideshow-container {
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   height: 1920px;
+  padding-top: 289px;
+  box-sizing: border-box;
 }
 
 .slideshow-image {
