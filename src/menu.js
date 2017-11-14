@@ -31,7 +31,7 @@ export default class extends React.Component {
         <div>
           <h2>Lithium Exchange</h2>
           <p><span className='price'>$10 == 10% Li</span></p>
-          <div className='lilbump'><img className='payment' src='/accept.png' alt='accepted cards'/></div>
+          <div className='lilbump'><img className='payment' src='https://samepant.github.io/eo1-experiments/accept.png' alt='accepted cards'/></div>
         </div>
       </div>
     )
