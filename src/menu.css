@@ -38,3 +38,15 @@ h2 {
   border-radius: 60% 113% 74% 134%;
   padding: 37px;
 }
+
+p {
+  margin: 5px 0;
+}
+
+.lilbump {
+  margin-top: 50px;
+}
+
+.payment {
+  width: 800px;
+}

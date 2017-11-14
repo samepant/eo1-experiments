@@ -26,11 +26,12 @@ export default class extends React.Component {
               </ul>
             </div>
           </div>
+          <p>bases: greek yoghurt, OJ, milk, almond milk</p>
         </div>
         <div>
           <h2>Lithium Exchange</h2>
-          <p><span className='price'>$1 == 1% Li</span></p>
-          <p>we accept: cash/credit/crypto</p>
+          <p><span className='price'>$10 == 10% Li</span></p>
+          <div className='lilbump'><img className='payment' src='/accept.png' alt='accepted cards'/></div>
         </div>
       </div>
     )
